@@ -1,6 +1,8 @@
 # lede-cups
 
-git clone https://github.com/lede-project/source
+git clone https://github.com/lede-project/source 
+
+fork from Gr4ffy
 
 cd source
 
