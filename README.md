@@ -1,8 +1,7 @@
 # lede-cups
 
-git clone https://github.com/lede-project/source 
+git clone https://github.com/ShaolinDeng/openwrt.git
 
-fork from Gr4ffy
 
 cd source
 
@@ -12,8 +11,7 @@ echo "src-git cups https://github.com/ShaolinDeng/lede-cups.git" >> feeds.conf.d
 
 ./scripts/feeds install -a
 
-make menuconfig (set Network->Printing->cups as "M")
+make menuconfig (set Network->Printing->cups as "*")
 
 make
 
-copy /source/bin/packages/<arch>/cups/*.ipk to machine & opkg install 
